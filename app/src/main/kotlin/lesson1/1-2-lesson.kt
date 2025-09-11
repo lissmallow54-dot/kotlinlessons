@@ -6,7 +6,6 @@ fun main() {
     println(numberOfEmployees)
     println(numberOfOrders)
     println(welcomeMessage)
-
     numberOfEmployees = 1999
     println(numberOfEmployees)
 
