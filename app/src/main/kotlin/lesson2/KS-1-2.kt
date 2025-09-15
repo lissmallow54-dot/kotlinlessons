@@ -1,11 +1,10 @@
 package lesson2
-const val NUMBER_OF_GRADES = 4f
+const val NUMBER_OF_GRADES = 4.0
 fun main () {
-    val a: Byte = 3
-    val b: Byte = 4
-    val c: Byte = 3
-    val d: Byte = 5
-    val average = (a + b + c + d) / NUMBER_OF_GRADES
-    //
-println(String.format("%.2f", average))
+    val studentGrade: Byte = 3
+    val studentGrade2: Byte = 4
+    val studentGrade3: Byte = 3
+    val studentGrade4: Byte = 5
+    val average = (studentGrade + studentGrade2 + studentGrade3 + studentGrade4) / NUMBER_OF_GRADES
+    println(String.format("%.2f", average))
 }
