@@ -7,6 +7,7 @@ fun main () {
     println(thankYouMessage)
     var numberOfEmployees: Int = 2000
     println(numberOfEmployees)
+    //Всего работников - 2000
     numberOfEmployees = 1999
     println(numberOfEmployees)
 
